@@ -1,0 +1,110 @@
+
+<html >
+    <head>
+    <title>linkedin</title>
+    <link rel="stylesheet" href="./assets/css/coursera.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">          
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta charset="utf-8">
+        
+    </head>
+
+    <body>
+  
+        
+    <!-- <header class="header">
+      <div class="logo-box">
+        <img class="logo-img" src="C:\Users\Bahram\Desktop\vhdl\qq\youtube\assets\img\logo.png" alt="" />
+      </div>
+      <div class="search"></div>
+      <div class="profile"></div>
+      
+    </header> -->
+        <h2 id="vid" class="txt2" >لیست دروس لینکدین</h2>
+      
+          <div class="nothing" style="display: flex; background-color: #188fa7;     justify-content: center;
+          align-items: center;
+          text-align: center;">
+              <div class="form-group" style="width: 12rem;">
+                <label for="exampleFormControlSelect1" style="color: white;">مبحث خود را انتخاب کنید</label>
+                 <select class="form-control" id="exampleFormControlSelect1">
+                    <option value="one">عمران</option>
+                    <option value="two">مکانیک</option>
+                    <option value="three">برنامه نویسی</option>
+                 </select>
+              </div>
+              <button class="btn btn-dangerrrr" style="height: 2.5rem;width: 5rem;margin-top: 0.8rem;margin-left: 3rem;" onclick="foo()">فیلتر</button>
+          </div>
+
+
+
+
+        <div class="container-fluid jumbotron" id="tt">    
+          <h1 style="margin: 40px 10px; text-align: center;">لیست دوره های لینکدین لرنینگ</h1>
+
+          <div id="tone" class="boody" style="border-radius: 3px;" >
+   
+              <div class="item">
+                <div class="card" style="width: 18rem;">
+                  <img src="../img/time-management,working-from-home.jpg"  class="card-img-top"> 
+                  <div class="card-body">
+                        <h5 class="card-title">مدیریت زمان </h5>
+                        <p class="card-text">  دوره ی مدیریت زمان لینکدین جز بهترین و محبوب ترین دوره های روانشناسی و خود شناسی لینکدین شناختعه شده و ما این دوره را با روان ترین ترجمه ممکن برای شما آماده کردیم</p>
+                        <a href="./youtube.html" class="btn btn-primary" target="_blank">مشاهده دوره</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card" style="width: 18rem;">
+                  <img src="../img/stressmanagement-at-workplace.jpg"  class="card-img-top"> 
+                  <div class="card-body">
+                        <h5 class="card-title">کنترل استرس  </h5>
+                        <p class="card-text">  استرس اجتناب‌ناپذیر است. همیشه با آن سر‌وکار دارید. اگر برای استرس چاره‌ای نیندیشید، همه‌ی زندگی‌تان را زیرورو می‌کند. خوشبختانه راه‌های زیادی برای کاهش استرس و کنارآمدن با آن وجود دارد. </p>
+                        <a href="./stressmanagement.html" class="btn btn-primary" target="_blank">مشاهده دوره</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card" style="width: 18rem;">
+                  <img src="../img/leadership,inclusion-and-diversity.jpg"  class="card-img-top"> 
+                  <div class="card-body">
+                        <h5 class="card-title"> اموزش رهبری و مدیریت </h5>
+                        <p class="card-text">  دوره ی مدیریت و رهبری لینکدین جز بهترین و محبوب ترین دوره های روانشناسی و خود شناسی لینکدین شناختعه شده و ما این دوره را با روان ترین ترجمه ممکن برای شما آماده کردیم</p>
+                        <a href="./youtube.html" class="btn btn-primary" target="_blank">مشاهده دوره</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card" style="width: 18rem;">
+                  <img src="../img/how-to-teach-online.jpg"  class="card-img-top"> 
+                  <div class="card-body">
+                        <h5 class="card-title">آموزش تدریس آنلاین  </h5>
+                        <p class="card-text">  دوره ی تدریس انلاین زمان لینکدین جز بهترین و محبوب ترین دوره های روانشناسی و خود شناسی لینکدین شناختعه شده و ما این دوره را با روان ترین ترجمه ممکن برای شما آماده کردیم</p>
+                        <a href="./youtube.html" class="btn btn-primary" target="_blank">مشاهده دوره</a>
+                  </div>
+                </div>
+              </div>
+     
+             
+
+          
+
+          </div>
+        </div>
+      
+      <script>
+        function foo(){
+          switch (document.getElementById('exampleFormControlSelect1').value) {
+            case 'one': document.getElementById('ttwo').style.display="none" , document.getElementById('tthree').style.display="none";
+              break;
+            case 'two': document.getElementById('tone').style.display="none" , document.getElementById('tthree').style.display="none";
+              break;
+            case 'three': document.getElementById('ttwo').style.display="none" , document.getElementById('tone').style.display="none";
+              break;  
+          }
+        }
+      </script>
+    </body>
+</html>            
