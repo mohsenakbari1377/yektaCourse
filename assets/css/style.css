@@ -68,7 +68,7 @@ html {
   font-family: Vazir !important;
   direction: rtl;
   overflow-x: hidden;
-  background-color: #2073d4 !important;
+  background-color: #689EB8 !important;
 }
 a {
   color: white;
@@ -78,7 +78,7 @@ a {
 /* start styling to page index */
 .bg-all--of---page,
 body {
-  background-color: #2073d4;
+  background-color: #689EB8;
   height: 100vh;
 }
 .container-all--of---object {
@@ -183,7 +183,7 @@ body {
   width: 100%;
   border-radius: 20px;
   outline: none;
-  border: 1px solid black;
+  border: 1px solid #ff5a60;
   height: 50px;
   margin: 30px 0px;
   padding: 0px 20px;
@@ -193,15 +193,24 @@ body {
   width: 100%;
   border-radius: 20px;
   outline: none;
-  border: 1px solid black;
+  border: 1px solid #ff5a60;
   height: 30px;
   margin-bottom: 30px;
   height: 50px;
   padding: 0px 20px;
 }
 .a-link-popup {
-  color: blue;
+  color: #ff5a60;
 }
+.a-link-pop
+{
+  color:#ff5a60;
+}
+.swal2-styled.swal2-confirm
+{
+  background-color:#ff5a60 !important;
+}
+
 /* .login-btn a {
   color: white !important;
 } */
@@ -213,7 +222,7 @@ body {
   border-radius: 20px;
   margin-right: 20px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: .9rem;
   color: #707070;
   outline: none;
 }
@@ -542,7 +551,7 @@ body {
 .landing-icon2 {
   width: 100%;
   height: auto;
-  background-color: #2073d4;
+  background-color: #689EB8;
   /* margin-top: 60px; */
 }
 
