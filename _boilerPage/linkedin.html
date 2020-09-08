@@ -102,29 +102,27 @@
         }
       </script>
       <script>
-          const tone=document.getElementById('tone');
-
-             let courses= [
-              {imgAddress:"../assets/img/time-management,working-from-home.jpg",title:"مدیریت زمان",description:"دوره ی مدیریت زمان لینکدین جز بهترین و محبوب ترین دوره هایرین ترجمه ممکن برای شما آماده کردیم"},
-              {imgAddress:"../assets/img/time-management,working-from-home.jpg",title:"مدیریت زمان",description:"دوره ی مدیریت زمان لینکدین جز بهترین و محبوب ترین دوره هایرین ترجمه ممکن برای شما آماده کردیم"}
+            let tone=document.getElementById('tone');
+            let courses= [
+                {imgAddress:"../assets/img/time-management,working-from-home.jpg",title:"مدیریت مکان",description:"دوره ی مدیریت زمان لینکدین جز بهترین و محبوب ترین دوره هایرین ترجمه ممکن برای شما آماده کردیم"},
+                {imgAddress:"../assets/img/time-management,working-from-home.jpg",title:"مدیریت زمان",description:"دوره ی مدیریت زمان لینکدین جز بهترین و محبوب ترین دوره هایرین ترجمه ممکن برای شما آماده کردیم"},
+                {imgAddress:"../assets/img/time-management,working-from-home.jpg",title:"مدیریت زمان",description:"دوره ی مدیریت زمان لینکدین جز بهترین و محبوب ترین دوره هایرین ترجمه ممکن برای شما آماده کردیم"}
             ];
 
-            for (let i = 0; i <= courses.length ; i++) {
-
-              tone.innerHTM =`
-              <div class='item'>
-                  <div class='card' style='width: 18rem;'>
-                    <img src=${courses[0].imgAddress}  class='card-img-top'> 
-                    <div class='card-body'>
-                          <h5 class='card-title'>${courses[0].title} </h5>
-                          <p class='card-text'>${courses[0].description}</p>
-                          <a href='./youtube.html' class='btn btn-primary' target='_blank'>مشاهده دوره</a>
+            for (course of courses) {
+                tone.insertAdjacentHTML('beforeend', `
+                    <div class='item'>
+                        <div class='card' style='width: 18rem;'>
+                        <img src=${course.imgAddress}  class='card-img-top'> 
+                        <div class='card-body'>
+                                <h5 class='card-title'>${course.title} </h5>
+                                <p class='card-text'>${course.description}</p>
+                                <a href='./youtube.html' class='btn btn-primary' target='_blank'>مشاهده دوره</a>
+                        </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              `;
-              }
-            
+                `);
+            }
       </script>
     </body>
 </html>            
