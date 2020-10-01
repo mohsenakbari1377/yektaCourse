@@ -124,5 +124,23 @@
                 `);
             }
       </script>
+      <script>
+        function ServiceExecuter(params) {
+    $.ajax({
+        type: "POST",
+        //async: true,
+        url: "WebServiceURL.asmx/" + methodName,
+        data: {id: 123},
+        context: this,
+        async: false,
+        dataType: "json",
+        success: function (data) {
+            if (params.onSuccess != null) {
+                params.onSuccess(data);
+            }
+        }
+    });
+}
+      </script>
     </body>
 </html>            
